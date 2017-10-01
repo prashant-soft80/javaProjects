@@ -1,4 +1,4 @@
-package main.java.example.sample;
+package example.sample;
 
 /**
  * This is an generic example.sample.Queue implementation using a circular array.
@@ -33,7 +33,7 @@ public class Queue<E> {
     /**
      * @param element Element to add to the queue if not full.
      * @return True is element is added to queue.
-     * @throws IllegalStateException If queue is full.
+     * @throws java.lang.IllegalStateException If queue is full.
      */
     boolean enqueue(E element) {
         if (((rearElementIndex +2) % maxSize) == frontElementIndex) {
@@ -50,7 +50,7 @@ public class Queue<E> {
 
     /**
      * @return Remove and return element at front of queue.
-     * @throws IllegalStateException If queue is empty.
+     * @throws java.lang.IllegalStateException If queue is empty.
      */
     E dequeue() {
         if(length() == 0) {
