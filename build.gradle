@@ -21,7 +21,12 @@ sourceSets {
 
 dependencies {
     compile 'org.mongodb:mongodb-driver:3.5.0'
+    compile 'com.google.inject:guice:4.0'
+    compile 'de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.0.0'
+    compile 'com.jcraft:jsch:0.1.44-1'
+
     testCompile 'junit:junit:4.11'
+    testCompile 'org.mockito:mockito-core:2.7.22'
 }
 
 test {

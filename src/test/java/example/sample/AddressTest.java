@@ -6,7 +6,7 @@ import example.BaseTestCase;
  * @author prash
  * @since 2017-Oct-02
  */
-public class QueueTest extends BaseTestCase {
+public class AddressTest extends BaseTestCase {
     private Queue<Integer> queue;
 
     public void setUp() {

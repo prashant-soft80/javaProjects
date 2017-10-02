@@ -11,7 +11,7 @@ public class Address {
     private String country;
     private String pin;
 
-    public Address(Builder builder) {
+    private Address(Builder builder) {
         this.addressLine1 = builder.addressLine1;
         this.addressLine2 = builder.addressLine2;
         this.addressLine3 = builder.addressLine3;
