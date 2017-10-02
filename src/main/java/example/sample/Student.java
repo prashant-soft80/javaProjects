@@ -135,7 +135,7 @@ public class Student {
             return this;
         }
 
-        public Student build() {
+        public Student buildStudent() {
             return new Student(this);
         }
     }

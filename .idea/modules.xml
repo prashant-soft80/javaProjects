@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gitProjects.iml" filepath="$PROJECT_DIR$/.idea/modules/gitProjects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gitProjects.iml" filepath="$PROJECT_DIR$/.idea/modules/gitProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gitProjects_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gitProjects_main.iml" group="gitProjects" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gitProjects_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gitProjects_main.iml" group="gitProjects" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gitProjects_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gitProjects_test.iml" group="gitProjects" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gitProjects_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gitProjects_test.iml" group="gitProjects" />
     </modules>
   </component>
